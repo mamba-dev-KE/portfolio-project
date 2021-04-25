@@ -200,7 +200,7 @@ nav ul li {
         grid-template-columns: 450px;
         grid-template-rows: repeat(8, 1fr);
         background-color:mintcream;
-        min-width: 145%;
+        min-width: 142%;
     }
     nav {
         display: block;        
