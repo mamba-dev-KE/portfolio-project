@@ -155,7 +155,6 @@ nav ul li {
         font-size: 0.9rem;
     }
     .developer-info {         
-        font-size: 20rem;
         grid-row: 2 / span 4;
         grid-column: 1 / span 3;
     }
@@ -193,10 +192,80 @@ nav ul li {
         grid-row: 6 / span 1;
         grid-column: 1 / span 6; 
         padding: 0;
-        margin-bottom: -9.7rem;    
-        
+        margin-bottom: -9.7rem;          
     }
 }
+@media only screen and (min-width: 375px) and (max-width:450px) {
+    main {
+        grid-template-columns: 450px;
+        grid-template-rows: repeat(8, 1fr);
+        background-color:mintcream;
+        min-width: 140%;
+    }
+    nav {
+        display: block;        
+        position: absolute;
+        left: 0;
+        font-size: 3rem;
+        border-bottom: 4rem;
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 1;        
+    }
+    .display-pic {
+        grid-row: 1 / span 1;
+        grid-column: 1 / span 1; 
+        margin-left: 8.5rem;                  
+    }
+    .developer-info {         
+        grid-row: 2 / span 5;
+        grid-column: 1 / span 1;
+        margin-top: 12rem; 
+        min-width: 140%;       
+    }
+    .contact {
+        grid-row: 7 / span 1;
+        grid-column: 1 / span 1;
+        margin-top: 3.5rem;                 
+    } 
+    .contact li {
+        line-height: 1.5;
+        font-size: 2.3rem; 
+    }
+    .contact h3 {
+        font-size: 2rem;
+    }
+    .projects {
+        display: none;    
+    }     
+    .skills {
+        grid-row: 6 / span 1;
+        grid-column: 1 / span 1;
+        width: 120%;
+    }       
+    .about-me p {        
+        font-size: 2.5rem;   
+        line-height: 1.5; 
+    }
+    footer {
+        grid-row: 8 / span 1;
+        grid-column: 1 / span 6;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }    
+    .name-title p{
+        font-size: 2rem;
+    }
+    .fab {
+        font-size: 3.5rem;  
+ }
+}
+
 @media only screen and (max-width:375px) {
 
 
