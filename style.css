@@ -200,7 +200,7 @@ nav ul li {
         grid-template-columns: 450px;
         grid-template-rows: repeat(8, 1fr);
         background-color:mintcream;
-        min-width: 140%;
+        min-width: 145%;
     }
     nav {
         display: block;        
@@ -229,7 +229,7 @@ nav ul li {
     } 
     .contact li {
         line-height: 1.5;
-        font-size: 1.5rem; 
+        font-size: 2rem; 
     }
     .contact h3 {
         font-size: 2rem;
